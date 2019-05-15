@@ -1,0 +1,42 @@
+{
+  "name": "vue-iview-mockjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "vue-cli-service serve --mode development --open",
+    "test": "vue-cli-service serve --mode test --open"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "iview": "^3.4.1",
+    "path-to-regexp": "^3.0.0",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-plugin-import": "^1.11.0",
+    "iview-loader": "^1.2.2",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "mockjs": "^1.0.1-beta3",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
